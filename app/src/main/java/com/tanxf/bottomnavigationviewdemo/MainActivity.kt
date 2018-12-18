@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
         navigation.setOnNavigationItemSelectedListener(this)
     }
 
-    override fun onNavigationItemSelected(p0: MenuItem): Boolean {
-        when (p0.itemId) {
+    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
             R.id.action_search -> return true
             R.id.action_settings -> return true
             R.id.action_navigation -> return true
