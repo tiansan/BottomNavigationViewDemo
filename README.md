@@ -35,8 +35,14 @@ BottomNavigationViewDemo
 
 
 设置icon选择与未选状态颜色
+
+
     app:itemIconTint="@drawable/bottom_navigation_selector"
+    
+    
 设置文本选择与未选状态颜色
+
+
     app:itemTextColor="@drawable/bottom_navigation_selector"
 
     bottom_navigation_selector.xml
@@ -48,10 +54,13 @@ BottomNavigationViewDemo
 
 
 设置菜单引用
+
+
     app:menu="@menu/my_navigation_items"
 
 
 设置item点击事件监听
+
     navigation.setOnNavigationItemSelectedListener(this)
 
     override fun onNavigationItemSelected(p0: MenuItem): Boolean {
