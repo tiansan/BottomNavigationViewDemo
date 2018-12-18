@@ -17,13 +17,17 @@ BottomNavigationViewDemo
 
 
 禁止item水平平移动画效果:
+
     app:itemHorizontalTranslationEnabled="false"
     对应的的方法是setItemHorizontalTranslationEnabled(false)
 
 
 设置导航栏的显示模式
+
     app:labelVisibilityMode="labeled"
     该属性对应的方法是setLabelVisibilityMode(LabelVisibilityMode.LABEL_VISIBILITY_LABELED)
+    
+    
     auto:当item小于等于3是，显示文字，item大于3个默认不显示，选中显示文字
     labeled:始终显示文字
     selected:选中时显示
