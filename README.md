@@ -3,6 +3,17 @@ BottomNavigationViewDemo
 
 导入包
     implementation 'com.android.support:design:28.0.0'
+    
+    
+    <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_gravity="start"
+            app:itemIconTint="@drawable/bottom_navigation_selector"
+            app:itemTextColor="@drawable/bottom_navigation_selector"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/my_navigation_items"/>
 
 
 禁止item水平平移动画效果:
