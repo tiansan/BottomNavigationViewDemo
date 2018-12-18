@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_search"
+          android:title="@string/menu_search"
+          android:icon="@mipmap/tab_chat" />
+    <item android:id="@+id/action_settings"
+          android:title="@string/menu_settings"
+          android:icon="@mipmap/tab_contacts" />
+    <item android:id="@+id/action_navigation"
+          android:title="@string/menu_navigation"
+          android:icon="@mipmap/tab_appcenter" />
+    <item android:id="@+id/action_me"
+          android:title="@string/menu_me"
+          android:icon="@mipmap/tab_me" />
+</menu>

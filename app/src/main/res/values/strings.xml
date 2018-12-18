@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BottomNavigationViewDemo</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_navigation">导航</string>
+    <string name="menu_me">我的</string>
+</resources>
